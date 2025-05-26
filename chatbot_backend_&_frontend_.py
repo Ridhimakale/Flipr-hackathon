@@ -3459,7 +3459,7 @@ import streamlit as st # Import streamlit directly in the main script
 # Replace 'YOUR_AUTHTOKEN' with your actual ngrok authtoken
 # Get your authtoken from https://dashboard.ngrok.com/get-started/your-authtoken
 # IMPORTANT: Replace "YOUR_AUTHTOKEN" with your actual token
-ngrok.set_auth_token("2xbFEEwOudtzz7bH3035AqoVE5d_7gC4fvBSAKoY9MVofKCBH")
+ngrok.set_auth_token("YOUR NGROK TOKEN")
 
 # Write Streamlit app code to app.py
 streamlit_code = """

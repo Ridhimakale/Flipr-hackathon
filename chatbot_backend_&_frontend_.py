@@ -1932,7 +1932,7 @@ app.run()
 !pip install flask flask-cors transformers torch pyngrok --quiet
 
 from pyngrok import conf
-conf.get_default().auth_token = "2xbFEEwOudtzz7bH3035AqoVE5d_7gC4fvBSAKoY9MVofKCBH"
+conf.get_default().auth_token = "YOUR TOKEN"
 
 !pip install flask flask-ngrok transformers
 

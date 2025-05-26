@@ -21,7 +21,7 @@ from langchain.prompts import PromptTemplate
 import os
 
 # Set Hugging Face API Key (Replace with your token)
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOUR HUGGING FACE SPI KEY"
 
 from huggingface_hub import InferenceClient
 
@@ -150,7 +150,7 @@ print("\nTicket Summary:", summarize_ticket(ticket))
 !pip install -q langchain-community huggingface_hub transformers faiss-cpu sentence-transformers pypdf openai tiktoken
 
 # Set Hugging Face API Key (Replace with your token)
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOUR HUGGING FACE TOKEN"
 
 # Re-run the LLM initialization and the subsequent code blocks.
 # If the error persists, investigate specific version compatibility
@@ -324,7 +324,7 @@ iface.launch(debug=True)
 
 # Set Hugging Face API Key
 # Make sure to replace "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" with your actual key if it's different
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOUR HUGGING FACE TOKEN"
 
 # After running this cell, rerun the subsequent cells to re-initialize
 # the LLM and other components, and then try the example calls again.
